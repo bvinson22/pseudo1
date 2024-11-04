@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Explorer Menu - CSS Pseudo-Classes Tutorial</title>
+    <style>
+      </style>
+</head>
+<body>
+    <h1>🚀 Space Explorer Menu Tutorial</h1>
+    <p>Welcome, space cadets! Today we'll learn about CSS pseudo-classes by creating an interactive space navigation menu.</p>
+
+    <div class="tutorial-section">
+        <h2>Step 1: The Demo Menu</h2>
+        <p>Here's our space exploration menu. Study how it behaves!</p>
+        
+        <nav class="nav-menu demo">
+            <a href="#">Mission Control</a>
+            <a href="#">Launch Pad</a>
+            <a href="#">Space Station</a>
+            <a href="#">Mars Colony</a>
+            <a href="#">Deep Space</a>
+        </nav>
+
+        <h3>What's Happening?</h3>
+        <ul>
+            <li><code>:hover</code> - Move your mouse over any link to see it slide right</li>
+            <li><code>:active</code> - Click and hold ANY link to see it turn dark red</li>
+            <li><code>:first-child</code> - Notice how "Mission Control" has a special green color</li>
+            <li><code>:last-child</code> - "Deep Space" has a unique purple color</li>
+            <li><code>:nth-child(2)</code> - "Launch Pad" has a yellow color</li>
+        </ul>
+    </div>
+
+    <div class="tutorial-section">
+        <h2>Step 2: Your Practice Menu</h2>
+        <p>Here's your practice menu. You'll add styles to make it interactive!</p>
+        
+        <nav class="nav-menu practice">
+            <a href="#">Mission Control</a>
+            <a href="#">Launch Pad</a>
+            <a href="#">Space Station</a>
+            <a href="#">Mars Colony</a>
+            <a href="#">Deep Space</a>
+        </nav>
+    </div>
+
+    <div class="tutorial-section">
+        <h2>✏️ Required Tasks</h2>
+        <div class="task-list">
+            <p><strong>Using the practice menu above, complete all of these tasks:</strong></p>
+            <ol>
+                <li>Add a <code>:hover</code> state that:
+                    <ul>
+                        <li>Changes the background color to a color of your choice</li>
+                        <li>Moves the element 10px to the right (use transform)</li>
+                    </ul>
+                </li>
+                <li>Add an <code>:active</code> state that:
+                    <ul>
+                        <li>Changes the background to a darker version of your hover color</li>
+                        <li>Add !important to make sure it works on all items</li>
+                    </ul>
+                </li>
+                <li>Style the <code>:first-child</code> to:
+                    <ul>
+                        <li>Have a unique background color</li>
+                        <li>Keep the black text color</li>
+                    </ul>
+                </li>
+                <li>Style the <code>:last-child</code> to:
+                    <ul>
+                        <li>Have a different unique background color</li>
+                        <li>Keep the black text color</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <div class="important-note">
+                <strong>Important:</strong> To make sure the active state works on all items, including those with special colors, add !important to your active state like this:
+                <code>background-color: #your-color !important;</code>
+            </div>
+
+            <div class="code-template">
+/* Copy this template and fill in your colors and values */
+
+.nav-menu.practice a:hover {
+    background-color: /* your color */;
+    transform: translateX(10px);
+}
+
+.nav-menu.practice a:active {
+    background-color: /* your color */ !important;
+}
+
+.nav-menu.practice a:first-child {
+    background-color: /* your color */;
+}
+
+.nav-menu.practice a:last-child {
+    background-color: /* your color */;
+}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

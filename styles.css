@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1a1a2e;
+    color: #fff;
+}
+
+.tutorial-section {
+    background: #162447;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.nav-menu {
+    background: #1f4068;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+/* Demo Menu Styles */
+.nav-menu.demo a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background: #e43f5a;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* First set special background colors */
+.nav-menu.demo a:first-child {
+    background: #4ecca3;
+}
+
+.nav-menu.demo a:last-child {
+    background: #7579e7;
+}
+
+.nav-menu.demo a:nth-child(2) {
+    background: #ffd369;
+    color: #000;
+}
+
+/* Then set interactive states that should work on ALL items */
+.nav-menu.demo a:hover {
+    background: #ff6b6b;
+    transform: translateX(10px);
+}
+
+.nav-menu.demo a:active {
+    background: #c92a42 !important; /* Using !important to ensure active state always shows */
+}
+
+/* Practice Menu Styles */
+.nav-menu.practice a {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background: #f5f5f5;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+
+.nav-menu.practice a:hover {
+    background: green!important;
+    transform: translateX(10px);
+}
+
+.nav-menu.practice a:active {
+    background: red !important;
+}
+
+.nav-menu.practice a:first-child {
+    background: purple;
+    text-color: black;
+}
+
+.nav-menu.practice a:last-child {
+    background: orange;
+    text-color: black;
+}
+.nav-menu.practice a:nth-child(2) {
+    background: pink;
+    color: #000;
+}
+.nav-menu.practice a:nth-child(3) {
+    background: grey;
+    color: #000;
+}
+.nav-menu.practice a:nth-child(4) {
+    background: red;
+    color: #000;
+}
+
+
+code {
+    background: #2d3436;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #74b9ff;
+}
+
+.exercise {
+    background: #2c3e50;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.task-list {
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.task-list li {
+    margin: 10px 0;
+}
+
+.code-template {
+    background: #2d3436;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.important-note {
+    background: #e74c3c;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
